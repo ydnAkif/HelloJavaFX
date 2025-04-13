@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.ydnakif.hellofx.HelloController">
+  <!-- Centered logo -->
+  <ImageView fx:id="logoImageView" fitWidth="300" preserveRatio="true" onMouseClicked="#onLogoClick"/>
+
+  <!-- Centered label -->
+  <Label fx:id="infoLabel" onMouseClicked="#onLabelClick" textAlignment="CENTER" style="-fx-font-size: 24px; -fx-text-alignment: center;"/>
+</StackPane>
